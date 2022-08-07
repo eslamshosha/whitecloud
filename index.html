@@ -21,95 +21,123 @@
       </div>
     </div>
     <!-- preloader -->
-    <!-- header section -->
-    <header>
-      <div class="top-header">
-        <div class="container">
-          <div class="nav-header">
-            <div class="empt-div"></div>
-            <figure class="img-logo">
-              <a href="#"><img src="images/logo.png" class="img-fluid" /></a>
-            </figure>
-            <div class="lang-ancor-cont">
-              <a class="lang-ancor" href="index-en.html">
-                <span>English</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- header section     -->
-    <!--form section-->
-    <section class="form-section">
-      <div class="container">
-        <div class="form-cont">
-          <div class="form-head">
-            <h2>اخبرنا عنك</h2>
-          </div>
-          <form action="">
-            <div class="form-group">
-              <input
-                type="tel"
-                class="form-input"
-                name=""
-                placeholder="الجوال"
-              />
-            </div>
-            <div class="form-group">
-              <input
-                type="number"
-                class="form-input"
-                name=""
-                placeholder="العمر"
-              />
-            </div>
-            <div class="form-group">
-              <input
-                type="email"
-                class="form-input"
-                name=""
-                placeholder="المدينة"
-              />
-            </div>
-            <div class="form-group">
-              <div class="toggle">
-                <input
-                  type="radio"
-                  name="sex"
-                  value="male"
-                  checked="checked"
-                  id="male"
-                />
-                <label for="male">ذكر</label>
-                <input
-                  type="radio"
-                  name="sex"
-                  value="female"
-                  id="female"
-                />
-                <label for="female">انثى</label>
+    <div class="mob-cont">
+      <!-- header section -->
+      <header>
+        <div class="top-header">
+          <div class="container">
+            <div class="nav-header">
+              <div class="empt-div"></div>
+              <figure class="img-logo">
+                <a href="#"><img src="images/logo.png" class="img-fluid" /></a>
+              </figure>
+              <div class="lang-ancor-cont">
+                <a class="lang-ancor" href="index-en.html">
+                  <span>English</span>
+                </a>
               </div>
             </div>
-            <span class="terms">
-              بإرسالي لهذه البيانات اعني موافقتي على
-              <a href="#">   الشروط والأحكام  </a>
-            </span>
-            <div class="form-btn-cont">
-              <button class="form-btn" type="submit">ارسال</button>
+          </div>
+        </div>
+      </header>
+      <!-- header section     -->
+      <!--form section-->
+      <section class="form-section">
+        <div class="container">
+          <div class="form-cont">
+            <div class="form-head">
+              <h2>اخبرنا عنك</h2>
             </div>
-          </form>
+            <form action="">
+              <div class="form-group">
+                <input
+                  type="tel"
+                  class="form-input"
+                  name=""
+                  placeholder="الجوال"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  class="form-input"
+                  name=""
+                  placeholder="العمر"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-input"
+                  name=""
+                  placeholder="المدينة"
+                />
+              </div>
+              <div class="form-group">
+                <div class="toggle">
+                  <input
+                    type="radio"
+                    name="sex"
+                    value="male"
+                    checked="checked"
+                    id="male"
+                  />
+                  <label for="male">ذكر</label>
+                  <input type="radio" name="sex" value="female" id="female" />
+                  <label for="female">انثى</label>
+                </div>
+              </div>
+              <span class="terms">
+                بإرسالي لهذه البيانات اعني موافقتي على
+                <a href="#" data-toggle="modal" data-target="#terms-modal">
+                  الشروط والأحكام
+                </a>
+              </span>
+              <div class="form-btn-cont">
+                <button class="form-btn" type="submit">ارسال</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!--order section-->
+      <!-- footer section -->
+      <footer>
+        <div class="container">
+          <div class="copy-right">© جميع الحقوق محفوظة، وايت كلاود 2022</div>
+        </div>
+      </footer>
+      <!-- footer section -->
+    </div>
+    <!-- Start terms Modal -->
+    <div class="modal fade terms-modal" id="terms-modal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">الشروط والأحكام</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما
+              سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات
+              في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها
+              تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام “هنا يوجد
+              محتوى نصي، هنا يوجد محتوى نصي” فتجعلها تبدو (أي الأحرف) وكأنها نص
+              مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب
+              تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال
+              “lorem ipsum” في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد
+              في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم
+              إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال بعض
+              العبارات الفكاهية إليها.
+            </p>
+          </div>
         </div>
       </div>
-    </section>
-    <!--order section-->
-    <!-- footer section -->
-    <footer>
-      <div class="container">
-        <div class="copy-right">© جميع الحقوق محفوظة، وايت كلاود 2022</div>
-      </div>
-    </footer>
-    <!-- footer section -->
+    </div>
+    <!-- End terms Modal -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>

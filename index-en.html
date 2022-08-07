@@ -20,95 +20,122 @@
       </div>
     </div>
     <!-- preloader -->
-    <!-- header section -->
-    <header>
-      <div class="top-header">
-        <div class="container">
-          <div class="nav-header">
-            <div class="empt-div"></div>
-            <figure class="img-logo">
-              <a href="#"><img src="images/logo.png" class="img-fluid" /></a>
-            </figure>
-            <div class="lang-ancor-cont">
-              <a class="lang-ancor" href="index.html">
-                <span>العربية</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- header section     -->
-    <!--form section-->
-    <section class="form-section">
-      <div class="container">
-        <div class="form-cont">
-          <div class="form-head">
-            <h2>Tell us about you</h2>
-          </div>
-          <form action="">
-            <div class="form-group">
-              <input
-                type="tel"
-                class="form-input"
-                name=""
-                placeholder="Mobile"
-              />
-            </div>
-            <div class="form-group">
-              <input
-                type="number"
-                class="form-input"
-                name=""
-                placeholder="Age"
-              />
-            </div>
-            <div class="form-group">
-              <input
-                type="email"
-                class="form-input"
-                name=""
-                placeholder="City"
-              />
-            </div>
-            <div class="form-group">
-              <div class="toggle">
-                <input
-                  type="radio"
-                  name="sex"
-                  value="male"
-                  checked="checked"
-                  id="male"
-                />
-                <label for="male">Male</label>
-                <input
-                  type="radio"
-                  name="sex"
-                  value="female"
-                  id="female"
-                />
-                <label for="female">Female</label>
+    <div class="mob-cont">
+      <!-- header section -->
+      <header>
+        <div class="top-header">
+          <div class="container">
+            <div class="nav-header">
+              <div class="empt-div"></div>
+              <figure class="img-logo">
+                <a href="#"><img src="images/logo.png" class="img-fluid" /></a>
+              </figure>
+              <div class="lang-ancor-cont">
+                <a class="lang-ancor" href="index.html">
+                  <span>العربية</span>
+                </a>
               </div>
             </div>
-            <span class="terms">
-              By sending this info, I agree to the
-              <a href="#">   Terms & Conditions </a>
-            </span>
-            <div class="form-btn-cont">
-              <button class="form-btn" type="submit">SEND</button>
+          </div>
+        </div>
+      </header>
+      <!-- header section     -->
+      <!--form section-->
+      <section class="form-section">
+        <div class="container">
+          <div class="form-cont">
+            <div class="form-head">
+              <h2>Tell us about you</h2>
             </div>
-          </form>
+            <form action="">
+              <div class="form-group">
+                <input
+                  type="tel"
+                  class="form-input"
+                  name=""
+                  placeholder="Mobile"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  class="form-input"
+                  name=""
+                  placeholder="Age"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-input"
+                  name=""
+                  placeholder="City"
+                />
+              </div>
+              <div class="form-group">
+                <div class="toggle">
+                  <input
+                    type="radio"
+                    name="sex"
+                    value="male"
+                    checked="checked"
+                    id="male"
+                  />
+                  <label for="male">Male</label>
+                  <input type="radio" name="sex" value="female" id="female" />
+                  <label for="female">Female</label>
+                </div>
+              </div>
+              <span class="terms">
+                By sending this info, I agree to the
+                <a href="#" data-toggle="modal" data-target="#terms-modal">
+                  Terms & Conditions
+                </a>
+              </span>
+              <div class="form-btn-cont">
+                <button class="form-btn" type="submit">SEND</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!--order section-->
+      <!-- footer section -->
+      <footer>
+        <div class="container">
+          <div class="copy-right">© All rights reserved, White Cloud 2022</div>
+        </div>
+      </footer>
+      <!-- footer section -->
+    </div>
+    <!-- Start terms Modal -->
+    <div class="modal fade terms-modal" id="terms-modal" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Terms & Conditions</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry’s standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
+          </div>
         </div>
       </div>
-    </section>
-    <!--order section-->
-    <!-- footer section -->
-    <footer>
-      <div class="container">
-        <div class="copy-right"> © All rights reserved, White Cloud 2022</div>
-      </div>
-    </footer>
-    <!-- footer section -->
+    </div>
+    <!-- End terms Modal -->
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
