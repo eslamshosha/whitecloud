@@ -242,6 +242,7 @@ footer {
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
   border: none;
+  outline: none;
 }
 .form-btn:hover {
   color: var(--white-color);
@@ -420,6 +421,19 @@ html[dir="ltr"] .toggle input + label:last-of-type {
 }
 
 /***************************pop-up*************************/
+@media (min-width: 1199px) {
+  .mob-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 100vh;
+  }
+  .form-section {
+    margin: 0;
+  }
+}
 @media (max-width: 480px) {
   .mob-cont {
     display: flex;
