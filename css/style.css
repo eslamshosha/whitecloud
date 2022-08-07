@@ -339,8 +339,7 @@ html[dir="ltr"] .toggle input + label:last-of-type {
 
 @media (max-width: 480px) {
   .terms-modal .modal-dialog {
-    margin-top: 60px;
-    width: calc(100vw - 30px);
+    width: calc(100vw - 40px);
   }
 }
 
