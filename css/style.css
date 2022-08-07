@@ -416,13 +416,12 @@ html[dir="ltr"] .toggle input + label:last-of-type {
   text-align: center;
   font-weight: 400;
   font-size: 14px;
+  text-align: justify;
+  text-align-last: center;
 }
 @media (max-width: 480px) {
   .terms-modal .modal-content {
     padding: 40px 25px 30px;
-  }
-  .modal-body p {
-    text-align: justify;
   }
 }
 /***************************pop-up*************************/
